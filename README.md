@@ -10,7 +10,8 @@ there is no authentication so far. When implemented, it will use "org.springfram
 so far this operation has not been tested due to the external web service which requires authentication even for code yyc
 
 Docker
-the project contains a dockerfile but the deployment to docker hub did not work, I tried a gradle plugin that is supposed to 
+
+the project contains a Dockerfile but the deployment to docker hub did not work, I tried a gradle plugin that is supposed to 
 build the image and deploy it to docker hub. the amazon docker client can pick it up from there when I deploy on EC2.
 
 
